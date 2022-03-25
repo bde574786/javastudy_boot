@@ -1,0 +1,14 @@
+package ch09;
+
+public class UserInfoTest {
+
+	public static void main(String[] args) {
+
+		UserInfo usr1 = new UserInfo("홍길동", "abc", "1234");
+		usr1.userInput();
+		usr1.userPrint(usr1);
+	}
+
+	
+	
+}

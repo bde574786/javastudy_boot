@@ -1,0 +1,59 @@
+package ch03;
+
+import java.util.Scanner;
+
+public class UserInfo {
+
+	String id;
+	String pw;
+	String name;
+	String gender;
+	String birthday;
+	String email;
+	String phoneNumber;
+
+	Scanner sc = new Scanner(System.in);
+
+	public void Id() {
+		System.out.println("아이디");
+		sc.nextLine();
+	}
+
+	public void Password() {
+		System.out.println("비밀번호");
+		sc.nextLine();
+	}
+
+	public void PasswordCheck() {
+		System.out.println("비밀번호 재확인");
+		sc.nextLine();
+	}
+
+	public void name() {
+		System.out.println("이름");
+		sc.nextLine();
+	}
+
+	public void gender() {
+		System.out.println("성별");
+		sc.nextLine();
+	}
+
+	public void birthday() {
+		System.out.println("생년월일");
+		sc.nextLine();
+	}
+
+	public void email() {
+		System.out.println("이메일");
+		sc.nextLine();
+	}
+
+	public void phoneNumber() {
+		System.out.println("휴대전화");
+		sc.nextLine();
+	}
+
+	
+	
+}

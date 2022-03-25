@@ -1,0 +1,33 @@
+package ch03;
+
+public class StudentMainTest {
+
+	public static void main(String[] args) {
+		
+		Student studentKim = new Student(); // 생성과 동시에 초기화, 힙 영역
+		studentKim.studentid = 1;
+		studentKim.studentName = "김길동";
+		studentKim.address = "부산시 진구";
+		
+		studentKim.study();
+		studentKim.breakTime();
+		studentKim.showStudentInfo();
+		studentKim.cleanUp();
+		studentKim.takeTest();
+		
+		///////////////////////////////////////////////////////
+		
+		Student studentLee = new Student();
+		studentLee.studentid = 2;
+		studentLee.studentName = "홍길동";
+		studentLee.address = "부산시 해운대구";
+		
+		studentLee.study();
+		studentLee.breakTime();
+		studentLee.showStudentInfo();
+		
+		
+		
+	}
+
+}

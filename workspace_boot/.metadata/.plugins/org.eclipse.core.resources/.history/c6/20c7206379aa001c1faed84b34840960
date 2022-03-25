@@ -1,0 +1,12 @@
+package ch04;
+
+public class UserInfoTest {
+
+	public static void main(String[] args) {
+		
+		UserInfo info = new UserInfo("abc", "aef" ,"123");
+		         
+		System.out.println(info);
+	}
+
+}

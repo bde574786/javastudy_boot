@@ -1,0 +1,35 @@
+package ch09;
+
+import java.util.Scanner;
+
+public class UserInfoScanner {
+	Scanner scanner; 
+	private String name;
+	private String id;
+	
+	public UserInfoScanner() {
+		this.scanner = new Scanner(System.in);
+	}
+	
+	public UserInfo inputUserData() {
+		System.out.println("사용자 이름을 입력해주세요");
+		this.name =  scanner.nextLine();
+		System.out.println("사용자 아이디를 입력해주세요");
+		this.id = scanner.nextLine();
+		
+		return new UserInfo(name, id); 
+
+	}
+
+	public String get1Name() {
+		return name;
+	}
+
+	public String getId() {
+		return id;
+	}
+	
+	
+	
+	
+}

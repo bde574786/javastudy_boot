@@ -1,0 +1,44 @@
+package ch08;
+
+public class UserInfo {
+
+	//  멤버 변수
+	// this 활용한 생성
+	
+	String name;
+	String address;
+	String phoneNumber;
+	
+	
+	public UserInfo(){
+		this("abc", "aa", "1234");
+	}
+	
+	public UserInfo(String name, String address) {
+		this.name = name;
+		this.address = address;
+	}
+	
+	public UserInfo(String name, String address, String phoneNumber){
+		this(name, address);
+		this.phoneNumber = phoneNumber;
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		
+		UserInfo user = new UserInfo("123","123","123");
+		
+	
+		
+		
+		
+		
+		// 여기서 메인 함수 사용할 수 있다.
+		
+		
+	}
+	
+	
+}

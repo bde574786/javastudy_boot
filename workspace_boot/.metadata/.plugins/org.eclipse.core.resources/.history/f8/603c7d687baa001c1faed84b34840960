@@ -1,0 +1,23 @@
+package ch04;
+
+public class Order {
+
+	String orderNum;
+	int phoneNum;
+	String address;
+	int date;
+	int time;
+	int price;
+	int menuNum;
+
+	Order(String orderNum, int phoneNum, String address, int date, int time, int price, int menuNum){
+		this.orderNum = orderNum;
+		this.phoneNum = phoneNum;
+		this.address = address;
+		this.date = date;
+		this.time = time;
+		this.price = price;
+		this.menuNum = menuNum;
+	}
+	
+}

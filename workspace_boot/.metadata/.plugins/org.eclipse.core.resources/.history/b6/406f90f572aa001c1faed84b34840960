@@ -1,0 +1,18 @@
+package ch04;
+
+public class Student {
+
+	// 생성자 - constructor
+	// 객체를 생성할 때 다음과 같은 모양으로 객체를 만들어라고 지시하는 것
+	// 강제성 부여 하는거와 같다.
+	
+	int number;
+	String name;
+	int grad;
+	
+	// 생성자
+	public Student(String name) {
+		
+	}
+	
+}

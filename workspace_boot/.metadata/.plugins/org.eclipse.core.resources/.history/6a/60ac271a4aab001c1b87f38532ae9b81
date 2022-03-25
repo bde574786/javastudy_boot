@@ -1,0 +1,12 @@
+package ch09;
+
+public class NumberPrinterTest {
+
+	public static void main(String[] args) {
+
+		NumberPrinter numberPrinter = new NumberPrinter();
+		numberPrinter.printWaitNumber();
+		
+	}
+
+}

@@ -1,0 +1,29 @@
+package ch03;
+
+public class MainTest4 {
+
+	public static void main(String[] args) {
+		// 증감 연산자, 감소 연산자
+		// ++, --
+		
+		int num1 = 1;
+		 num1++;
+		 System.out.println(num1);
+		 
+		 int num2 = 1;
+		 num2--;
+		 System.out.println(num2);
+		 
+		 // 1. 증감 연산자가 뒤에 올 경우
+		 int num3 = 10;
+		 int num4;
+		 
+		 num4 = num3++;
+		 System.out.println(num4);
+		 // num3(10) num4에 값을 대입하고 난 뒤 num3 값을 1증가 시킴
+		 System.out.println(num3);
+	
+	
+	}
+
+}

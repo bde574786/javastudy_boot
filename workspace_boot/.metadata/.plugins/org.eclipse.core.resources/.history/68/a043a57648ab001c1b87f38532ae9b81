@@ -1,0 +1,19 @@
+package ch06_1;
+
+public class MainTest {
+
+	public static void main(String[] args) {
+		
+		
+		
+
+		people.takeTaxi(taxi);
+		
+		System.out.println(people.getName() + "님의 남은 돈은 " + people.getMoney() + "입니다");
+		System.out.println(taxi.getCompany() + "수입은 " + taxi.getMoney() + "입니다");
+		
+		
+		
+	}
+
+}

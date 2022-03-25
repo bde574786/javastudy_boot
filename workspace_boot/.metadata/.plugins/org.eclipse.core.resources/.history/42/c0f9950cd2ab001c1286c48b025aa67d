@@ -1,0 +1,20 @@
+package ch09;
+
+public class Employee {
+
+	public static int serialNum;
+	
+	private int employeeId;
+	private String employeeName;
+	private String department;
+	
+	public Employee() {
+		this.employeeId = 1;
+	}
+	
+	public void showInfo() {
+		System.out.println("사원 번호: " + employeeId);
+	}
+	
+	
+}

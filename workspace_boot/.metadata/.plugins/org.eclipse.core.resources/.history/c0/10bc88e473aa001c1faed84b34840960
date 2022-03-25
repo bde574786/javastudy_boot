@@ -1,0 +1,14 @@
+package ch04;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+			
+		Student student1 = new Student("홍길동");
+		student1.name = "홍길동";
+		student1.number = 1;
+		student1.grade = 3;
+	
+	}
+
+}

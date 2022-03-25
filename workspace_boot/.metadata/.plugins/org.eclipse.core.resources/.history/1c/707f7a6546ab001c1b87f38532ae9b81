@@ -1,0 +1,10 @@
+package ch06_1;
+
+public class MainTest {
+
+	People people = new People("Edward", 20000);
+	Taxi taxi = new Taxi("잘나간다 운수", 10000);
+	public void  showResult
+		
+	}
+}

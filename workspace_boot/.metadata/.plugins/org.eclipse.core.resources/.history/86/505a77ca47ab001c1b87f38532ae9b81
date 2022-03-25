@@ -1,0 +1,15 @@
+package ch06_1;
+
+public class MainTest {
+
+	public static void main(String[] args) {
+
+		People people = new People("Edward", 20000);
+		Taxi taxi1 = new Taxi("잘나간다 운수1", 10000);
+		Taxi taxi2 = new Taxi("잘나간다 운수1", 10000);
+		people.takeTaxi(taxi1);
+		
+		System.out.println(people.getMoney());
+	}
+
+}

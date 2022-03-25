@@ -1,0 +1,11 @@
+package ch04;
+
+public class HumanTest {
+
+	public static void main(String[] args) {
+		Human h1 = new Human(180, 78, "남성", "Tomas", 37);
+	
+		h1.showInfo();
+	
+	}
+}

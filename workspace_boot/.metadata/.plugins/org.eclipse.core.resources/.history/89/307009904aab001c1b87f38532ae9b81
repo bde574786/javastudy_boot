@@ -1,0 +1,21 @@
+package ch09;
+
+public class NumberPrinter {
+
+	private int waitNumber;
+	
+	public NumberPrinter() {
+		waitNumber = 1;
+	}
+	
+	
+	// 번호표를 출력합니다.
+	public void printWaitNumber() {
+		System.out.println("대기 순번은 : " + waitNumber);
+//		waitNumber = waitNumber + 1;
+		waitNumber++;
+	}
+	
+	
+	
+}

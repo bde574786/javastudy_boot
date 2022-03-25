@@ -1,0 +1,50 @@
+package ch11;
+
+public class Marine {
+
+	private static int marineSId;
+
+	private int id;
+	private String name;
+	private int power;
+	private int hp;
+
+	public Marine(String name) {
+		this.name = name;
+		marineSId++;
+		this.id = marineSId;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public int getPower() {
+		return power;
+	}
+
+	public int getHp() {
+		return hp;
+	}
+
+	public void attack() {
+
+	}
+
+	public void beAttacked() {
+
+	}
+
+	public void showinfo() {
+		System.out.println("=======정보창=======");
+		System.out.println("이름 : " + name);
+		System.out.println("아이디 : " + id);
+		System.out.println("공격력 : " + power);
+		System.out.println("생명력 : " + hp);
+		System.out.println("==================");
+	}
+}

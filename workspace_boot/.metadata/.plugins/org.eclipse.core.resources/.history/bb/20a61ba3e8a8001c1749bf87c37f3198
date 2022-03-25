@@ -1,0 +1,14 @@
+package ch02;
+
+public class TypeConversion {
+
+	public static void main(String[] args) {
+			
+		// 데이터 형 변환 (정수값을 실수값을 변경한다.)
+		
+		int iNum1 = 100;
+		System.out.println(iNum1);
+		
+	} // end of main
+
+} // end of class

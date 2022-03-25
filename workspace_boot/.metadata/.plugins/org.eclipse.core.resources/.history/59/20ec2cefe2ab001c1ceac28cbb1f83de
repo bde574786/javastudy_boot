@@ -1,0 +1,18 @@
+package ch10;
+
+public class CompanyTest {
+
+	public static void main(String[] args) {
+		
+//		Company company = new Company();
+		Company company1 = Company.getInstance();
+		Company company2 = Company.getInstance();
+		Company company3 = Company.getInstance();
+			
+		System.out.println(comapany1);
+		System.out.println(comapany2);
+		System.out.println(comapany3);
+		
+	}
+
+}

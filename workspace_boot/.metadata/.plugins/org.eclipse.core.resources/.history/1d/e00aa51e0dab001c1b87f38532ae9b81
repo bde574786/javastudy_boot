@@ -1,0 +1,31 @@
+package ch05;
+
+import java.util.Scanner;
+
+public class InputUserInfoScanner {
+
+	
+	// 상태 ---> 멤버 변수
+	InputUserInfoScanner user;
+	Scanner scanner;
+
+	// 생성자 --> 기본생성자 (메모리에 올라갈 때 처음 실행 됩니다.)
+	public InputUserInfoScanner() {
+		scanner = new Scanner(System.in);
+	}
+	
+	public InputUserInfoScanner inputData() {
+		System.out.println("사용자의 아이디를 입력하세요.");
+		printA();
+		String user =  scanner.nextLine();
+		return this.user ;
+	}
+	
+	
+	
+	// 행위
+	// 메서드를 만들어주세요
+	public void  printA() {
+		System.out.println("========사용자 입력========");
+	}
+}

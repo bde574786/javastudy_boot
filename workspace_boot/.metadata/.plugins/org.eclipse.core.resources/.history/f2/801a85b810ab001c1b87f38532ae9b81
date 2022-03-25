@@ -1,0 +1,25 @@
+package ch05_1;
+
+import java.util.Scanner;
+
+public class UserInfoScanner {
+
+	Scanner scanner;
+	
+	public UserInfoScanner() {
+		this.scanner = new Scanner(System.in);
+	}
+	
+	
+	
+	public String inputUserData() {
+		System.out.println("사용자 이름을 입력해주세요");
+		String name = this.scanner.nextLine();
+		System.out.println("사용자 아이디를 입력해주세요");
+		String id = scanner.nextLine();
+		return id;
+		
+	
+	
+	}
+}

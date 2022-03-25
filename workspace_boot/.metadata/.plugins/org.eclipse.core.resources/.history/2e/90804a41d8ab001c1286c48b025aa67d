@@ -1,0 +1,19 @@
+package ch09;
+
+public class CompanyTest {
+
+	public static void main(String[] args) {
+		
+		Company company = new Company();
+		Employee employee = new Employee();
+		
+		employee.setEmployeeName("홍사원");
+		// null 뜨는 이유 --> 해결
+		// employee 객체에 값을 넣지 않았다.
+		
+		company.join(employee);
+		company.showemployeeInfo();
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+package ch06;
+
+public class MainTest {
+
+	public static void main(String[] args) {
+		
+		Bus bus = new Bus();
+		bus.take(1200); // 1 사람
+		bus.take(1200); // 2 사람
+		bus.take(1200); // 3 사람
+		
+		bus.shoeInfo();
+		
+		
+	}
+	
+}

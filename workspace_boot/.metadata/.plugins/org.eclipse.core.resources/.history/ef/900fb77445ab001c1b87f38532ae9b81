@@ -1,0 +1,30 @@
+package ch06_1;
+
+public class People {
+
+	private String name;
+	private int money;
+	
+	
+	
+	public String getName() {
+		return name;
+	}
+
+
+	public int getMoney() {
+		return money;
+	}
+
+
+
+
+
+	People(String name, int money){
+		this.name = name;
+		this.money -= money;
+	}
+	
+	
+	
+}

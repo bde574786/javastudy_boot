@@ -1,0 +1,18 @@
+package ch04;
+
+import java.util.Scanner;
+
+public class HumanTest {
+
+	public static void main(String[] args) {
+		Human human1 = new Human(180, 78, "남성", "Tomas", 37);
+		human1.showInfo();
+
+		Scanner sc = new Scanner(System.in);
+		int height = sc.nextInt();
+		
+	
+	}
+	
+	
+}

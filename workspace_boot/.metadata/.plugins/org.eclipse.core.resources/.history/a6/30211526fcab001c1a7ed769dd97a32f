@@ -1,0 +1,13 @@
+package ch11;
+
+public class MainTest {
+
+	public static void main(String[] args) {
+			
+		Zealot zealot1 = new Zealot("질럿1");
+		zealot1.showinfo();
+		
+		
+	}
+
+}

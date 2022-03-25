@@ -1,0 +1,15 @@
+package ch09;
+
+public class UserInfoTest {
+
+	public static void main(String[] args) {
+
+			UserInfo usr1 = new UserInfo("Asdf","asdf");
+			usr1.userPrint(usr1);
+		
+		
+	}
+
+	
+	
+}

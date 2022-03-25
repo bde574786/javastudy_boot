@@ -1,0 +1,39 @@
+package ch09;
+
+public class Company {
+
+	// 멤버 변수
+	// 입사한다 메서드
+	
+	public static int serialnum; 
+	private Employee employee;
+	
+	public void enter(Employee employee) {
+		this.employee = employee;
+		System.out.println(employee + "가 입사했습니다.");
+	}
+
+	public static int getSerialnum() {
+		return serialnum;
+	}
+
+	public static void setSerialnum(int serialnum) {
+		Company.serialnum = serialnum;
+	}
+
+	public Employee getEmployee() {
+		return employee;
+	}
+
+	public void setEmployee(Employee employee) {
+		this.employee = employee;
+	}
+
+
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,21 @@
+package ch09;
+
+public class UserInfoTest {
+
+	public static void main(String[] args) {
+
+		boolean loopflag = true;
+		
+		
+		
+		while(loopflag) {
+			UserInfo usr1 = new UserInfo();
+			usr1.userInput();
+			usr1.userPrint(usr1);
+		}
+		
+	}
+
+	
+	
+}

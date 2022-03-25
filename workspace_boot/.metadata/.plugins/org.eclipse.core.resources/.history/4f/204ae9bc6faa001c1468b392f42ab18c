@@ -1,0 +1,23 @@
+package ch03;
+
+public class UserInfoTest {
+
+	public static void main(String[] args) {
+
+		UserInfo u1 = new UserInfo();
+		
+		u1.Id();
+		u1.Password();
+		u1.PasswordCheck();
+		u1.name();
+		u1.gender();
+		u1.birthday();
+		u1.email();
+		u1.phoneNumber();
+		
+		
+		
+		
+	}
+
+}

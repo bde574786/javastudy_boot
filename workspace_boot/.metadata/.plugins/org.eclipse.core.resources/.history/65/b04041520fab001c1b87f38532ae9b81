@@ -1,0 +1,13 @@
+package ch05_1;
+
+import java.util.Scanner;
+
+public class UserInfoScanner {
+
+	Scanner scanner;
+	
+	public void inputUserData() {
+		System.out.println("사용자 이름을 입력해주세요");
+		String name = scanner.nextLine();
+	}
+}

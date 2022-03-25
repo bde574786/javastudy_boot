@@ -1,0 +1,64 @@
+package ch11;
+
+public class Zealot {
+
+	private static int zealotSId;
+	
+	private int id;
+	private String name;
+	private int power;
+	private int hp;
+	
+	public Zealot(String name) {
+		this.name = name;
+		zealotSId++;
+		this.id = zealotSId;
+	}
+
+	public int getId() {
+		return id;
+	}
+	
+	public String getName() {
+		return name;
+	}
+
+	public int getPower() {
+		return power;
+	}
+
+
+	public int getHp() {
+		return hp;
+	}
+
+	
+	// 마린을 공격합니다.
+	public void attackMarine() {
+		
+	}
+	
+	// 저글링을 공격합니다.
+	public void attackZergling() {
+		
+	}
+	
+	// 내가 공격을 당하다.
+	public void beAttacked() {
+		
+	}
+	
+	public void showinfo() {
+		System.out.println("이름 : " + name);
+		System.out.println("아이디 : " + id);
+		System.out.println("공격력 : " + power);
+		System.out.println("생명력 : " + hp);
+		System.out.println("==================");
+	}
+
+
+	// getter
+	
+	
+	
+}

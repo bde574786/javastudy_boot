@@ -1,0 +1,10 @@
+package ch02;
+
+public class Student {
+
+	// 멤버 변수 선언
+	int height;
+	int weight;
+	String name;
+	
+}

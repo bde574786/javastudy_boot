@@ -1,0 +1,13 @@
+package ch01;
+
+public class SchoolTest {
+
+	public static void main(String[] args) {
+
+		School s1 = new School();
+		
+		s1.
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package ch09;
+
+public class CompanyTest {
+
+	public static void main(String[] args) {
+		
+		Company company = new Company();
+		Employee employee = new Employee();
+		
+		// null 뜨는 이유 --> 해결
+		company.join(employee);
+		company.showemployeeInfo();
+		
+	}
+
+}

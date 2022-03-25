@@ -1,0 +1,11 @@
+package ch02;
+
+public class MainTest1 {
+
+	public static void main(String[] args) {
+
+		Student s1 = new Student(); // 힙에 생성
+		System.out.println(s1.height);
+	}
+
+}

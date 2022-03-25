@@ -1,0 +1,12 @@
+package ch01;
+
+public class Warrior {
+
+	// 상태 --> 멤버변수
+	int height;
+	int power;
+	String name;  // 문자열
+	String color;
+	
+	
+}

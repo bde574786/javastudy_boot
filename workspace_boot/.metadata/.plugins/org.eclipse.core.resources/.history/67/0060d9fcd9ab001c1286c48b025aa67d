@@ -1,0 +1,28 @@
+package ch09;
+
+public class MainTest1 {
+
+	
+	// static 메서드 (함수) 
+	public static void main(String[] args) {
+		
+		// StringBuilder, StringBuffer 개념을 이해해 보자.
+		
+		// heap 메모리에 인스턴스로 생성
+		String a = new String("a");
+		
+		// 상수풀 메모리에 생성
+		String b = "b";
+		
+		String str1 = new String("abc");
+		String str2 = "abc";
+		
+		// 클래스 타입 (주소값 비교 합니다.)
+		// str1 == str2
+		System.out.println(str1 == str2);
+		// str1의 주소값을 출력해보자.
+		System.out.println(System.identityHashCode(str1));
+		System.out.println(System.identityHashCode(str2));
+	}
+
+}

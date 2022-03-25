@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Number"/>
+    <fullyQualifiedTypeName name="ch03.MainTest5"/>
+    <fullyQualifiedTypeName name="com.sun.java_cup.internal.runtime.Scanner"/>
+    <fullyQualifiedTypeName name="ch03.MainTest7"/>
+    <fullyQualifiedTypeName name="ch02.Student"/>
+    <fullyQualifiedTypeName name="ch03.Student"/>
+    <fullyQualifiedTypeName name="com.sun.crypto.provider.PBES2Core.HmacSHA1AndAES_128"/>
+    <fullyQualifiedTypeName name="ch05.InputUserInfoScanner"/>
+    <fullyQualifiedTypeName name="ch05_1.UserInfoScanner"/>
+    <fullyQualifiedTypeName name="ch05_1.UserInfo"/>
+    <fullyQualifiedTypeName name="ch05.UserInfo"/>
+    <fullyQualifiedTypeName name="ch06.Student"/>
+    <fullyQualifiedTypeName name="ch06.Bus"/>
+    <fullyQualifiedTypeName name="ch07.MakeReport"/>
+    <fullyQualifiedTypeName name="ch06_1.People"/>
+    <fullyQualifiedTypeName name="ch06_1.Taxi"/>
+    <fullyQualifiedTypeName name="ch09.NumberPrinter"/>
+    <fullyQualifiedTypeName name="com.sun.tools.jdeprscan.scan.Scan"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="ch09.UserInfoScanner"/>
+    <fullyQualifiedTypeName name="ch09.Employee"/>
+    <fullyQualifiedTypeName name="ch09.Company"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="ch10.Company"/>
+    <fullyQualifiedTypeName name="ch10.CompanyTest"/>
+    <fullyQualifiedTypeName name="ch09.MakeReport"/>
+    <fullyQualifiedTypeName name="ch09.MakeReportTest"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+</qualifiedTypeNameHistroy>

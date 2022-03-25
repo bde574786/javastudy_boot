@@ -1,0 +1,29 @@
+package ch03;
+
+import java.util.Scanner;
+
+public class UserInfoTest {
+
+	public static void main(String[] args) {
+
+		// 코드를 실행하는 쪽
+		Scanner scanner  = new Scanner(System.in);
+		int memberId = scanner.nextInt();
+		
+		UserInfo u1 = new UserInfo();
+		
+		u1.Id();
+		u1.Password();
+		u1.PasswordCheck();
+		u1.name();
+		u1.gender();
+		u1.birthday();
+		u1.email();
+		u1.phoneNumber();
+		
+		
+		
+		
+	}
+
+}

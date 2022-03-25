@@ -1,0 +1,12 @@
+package ch06_1;
+
+public class Result {
+	
+	public void showResult(People people, Taxi taxi) {
+		
+			System.out.println(people.getName()+ "님의 남은 돈은" + people.getMoney() +"원 입니다.");
+			System.out.println(taxi.getCompany()+"택시 수입은" + taxi.getCompany() + "원 입니다.");
+		}
+	}
+	
+	

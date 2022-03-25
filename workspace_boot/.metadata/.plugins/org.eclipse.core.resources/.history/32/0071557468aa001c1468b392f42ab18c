@@ -1,0 +1,27 @@
+package ch03;
+
+public class Student {
+
+	int studentid;
+	String studentName;
+	String address;
+	
+	// 메서드를 정의
+	public void study( ) {
+		System.out.println(studentName + "이(가) 학생이 공부를 합니다.");
+	}
+	
+	public void breakTime( ) {
+		System.out.println(studentName + "학생이 휴식을 합니다.");
+	}
+	
+	public void showStudentInfo() {
+		System.out.println("=========상태 창===========");
+		System.out.println("학생의 ID : "+ studentid);
+		System.out.println("학생의 이름 : " + studentName);
+		System.out.println("학생의 주소 : " + address);
+		System.out.println("=========상태 창===========");
+	}
+	
+	
+}

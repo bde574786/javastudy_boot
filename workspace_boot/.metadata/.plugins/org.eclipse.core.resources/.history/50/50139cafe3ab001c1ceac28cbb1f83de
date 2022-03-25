@@ -1,0 +1,16 @@
+package ch10;
+
+public class Company {
+
+	// 생성자를 통해서 객체를 생성하지 못하게 막는다.
+	private Company() {
+		
+	}
+	
+	// 여기서 문제점 ,,,,, nullPointer....
+	public static Company getInstance() {
+		
+		return new Company();
+	}
+	
+}

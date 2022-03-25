@@ -1,0 +1,17 @@
+package ch05;
+
+public class MainTest {
+
+	public static void main(String[] args) {
+		// 사용하기 ( 실행의 흐름 )
+		InputUserInfoScanner userInfoScanner = new InputUserInfoScanner();
+		// 힙 영역에 userInfoScanne객체가 올라가고 실행의 제어권이 생성자로 넘어가면
+		// 생성자에 있는 새로운 스캐너 객체도 올라간다.
+		String name1 =  userInfoScanner.inputData();
+		System.out.println("메인 :  " + name1);
+		
+		
+		
+	}
+	
+}

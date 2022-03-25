@@ -1,0 +1,15 @@
+package ch09;
+
+public class CompanyTest {
+
+	public static void main(String[] args) {
+		
+		Company company = new Company();
+		Employee employee = new Employee();
+		employee.getEmployeeName();
+		company.enter(employee);
+		
+		
+	}
+
+}

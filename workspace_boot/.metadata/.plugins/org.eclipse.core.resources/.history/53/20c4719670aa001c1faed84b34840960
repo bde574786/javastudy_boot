@@ -1,0 +1,12 @@
+package ch03;
+
+import java.util.Scanner;
+
+public class UserInfoTest {
+
+	public static void main(String[] args) {
+
+
+	}
+
+}

@@ -1,0 +1,30 @@
+package ch03;
+
+public class UserInfoTest {
+
+	public static void main(String[] args) {
+
+		UserInfo u1 = new UserInfo();
+		u1.id = "bde574786";
+		u1.pw = "1234";
+		u1.name = "정민수";
+		u1.gender = "남";
+		u1.birthday = "20000715";
+		u1.email = "bde574786@naver.com";
+		u1.phoneNumber = "01028078263";
+		
+		u1.Id();
+		u1.Password();
+		u1.PasswordCheck();
+		u1.name();
+		u1.gender();
+		u1.birthday();
+		u1.email();
+		u1.phoneNumber();
+		
+		
+		
+		
+	}
+
+}

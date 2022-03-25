@@ -1,0 +1,23 @@
+package ch04;
+
+public class Human {
+
+	int height;
+	int weight;
+	String gender;
+	String name;
+	int age;
+	
+	public Human(int height, int weight, String name, int age) {
+		this.height = height;
+		this.weight = weight;
+		this.gender = gender;
+		this.name = name;
+		this.age = age;
+		
+		System.out.println("");
+	
+	}
+	
+
+}

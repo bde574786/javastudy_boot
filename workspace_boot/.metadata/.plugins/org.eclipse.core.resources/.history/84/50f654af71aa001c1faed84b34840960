@@ -1,0 +1,28 @@
+package ch03;
+
+import java.util.Scanner;
+
+public class UserInfo {
+
+	
+	int  memberid;
+	String pw = getPwd();;
+	String name;
+	String gender;
+	int birthday;
+	String email;
+	String phoneNumber;
+
+	public void userSignUp() {
+		System.out.println("회원가입하기");
+	}
+	
+	
+	public String getPwd() {
+		System.out.println("아이디");
+		return "1234";
+	}
+
+	
+	
+}

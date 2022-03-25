@@ -1,0 +1,25 @@
+package ch06_1;
+
+public class Taxi {
+
+	private int money;
+	private String company;
+	
+	public int getMoney() {
+		return money;
+	}
+
+	public String getCompany() {
+		return company;
+	}
+
+
+
+	public void Taketaxi(int money, String company) {
+		this.money += money;
+		this.company = company;
+	}
+	
+
+	
+}
