@@ -1,1 +1,1 @@
-# javastudy_boot
+# java_boot
