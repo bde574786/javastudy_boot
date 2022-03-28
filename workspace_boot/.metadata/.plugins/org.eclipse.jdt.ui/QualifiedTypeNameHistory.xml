@@ -17,8 +17,6 @@
     <fullyQualifiedTypeName name="ch06_1.People"/>
     <fullyQualifiedTypeName name="ch06_1.Taxi"/>
     <fullyQualifiedTypeName name="ch09.NumberPrinter"/>
-    <fullyQualifiedTypeName name="com.sun.tools.jdeprscan.scan.Scan"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="ch09.UserInfoScanner"/>
     <fullyQualifiedTypeName name="ch09.Employee"/>
     <fullyQualifiedTypeName name="ch09.Company"/>
@@ -29,5 +27,20 @@
     <fullyQualifiedTypeName name="ch10.CompanyTest"/>
     <fullyQualifiedTypeName name="ch09.MakeReport"/>
     <fullyQualifiedTypeName name="ch09.MakeReportTest"/>
+    <fullyQualifiedTypeName name="ch11.Zergling"/>
+    <fullyQualifiedTypeName name="sun.jvm.hotspot.ui.SAEditorPane"/>
+    <fullyQualifiedTypeName name="com.sun.tools.jdeprscan.scan.Scan"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="sun.jvm.hotspot.runtime.Thread"/>
+    <fullyQualifiedTypeName name="ch11.Zealot"/>
+    <fullyQualifiedTypeName name="ch13.Marine"/>
+    <fullyQualifiedTypeName name="ch13.Zergling"/>
+    <fullyQualifiedTypeName name="ch13.Zealot"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="ch15.Peach"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="ch14.Car"/>
+    <fullyQualifiedTypeName name="ch15.Banana"/>
+    <fullyQualifiedTypeName name="ch14.CarTest"/>
+    <fullyQualifiedTypeName name="ch14.Engin"/>
 </qualifiedTypeNameHistroy>
