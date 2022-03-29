@@ -1,0 +1,35 @@
+package ch13_1;
+
+public class Zergling extends Unit {
+
+	public Zergling(String name) {
+		super(name);
+		// super.name = name;
+	}
+
+//	public void attack(Marine marine) {
+//		marine.beAttacked(power);
+//	}
+//    
+//	// 강제 어택 
+//	public void attack(Zergling zergling) {
+//		zergling.beAttacked(power);
+//	}
+//	
+//	public void attack(Zealot zealot) {
+//		zealot.beAttacked(power);
+//	}
+	@Override
+	public void attack(Unit unit) {
+		if (unit instanceof Zergling) {
+			System.out.println("저글링이 공격합니다.");
+		}
+		super.attack(unit);
+	}
+
+	@Override
+	public void beAttacked(int power) {
+		System.out.println("저글링이 공격받습니다.");
+	}
+
+}

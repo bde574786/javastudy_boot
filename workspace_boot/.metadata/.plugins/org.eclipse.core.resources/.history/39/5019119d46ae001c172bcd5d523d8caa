@@ -1,0 +1,17 @@
+package ch15;
+
+public class MainTest {
+
+	public static void main(String[] args) {
+		
+		// 다양한 형태로 클래스(타입을)로 바라 볼 수 있다. --> 다형성
+		// 배 --> 
+		Banana banana1 = new Banana();
+		Peach peach1 = new Peach();
+		
+		Fruit fruit1 = new Banana();
+		Fruit fruit2 = new Peach();
+		
+	}
+
+}

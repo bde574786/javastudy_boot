@@ -1,0 +1,5 @@
+package ch20;
+
+public abstract class Notebook extends Computer {
+
+}

@@ -1,0 +1,31 @@
+package ch14;
+
+public class Archer extends Hero{
+
+	public Archer(String name, int hp) {
+		super(name, hp);
+		super.setHp(hp);
+	}
+	
+	public void fireArrow() {
+		System.out.println("불화살");
+	}
+	
+	public void attack(Archer archer) {
+		System.out.println("자살 중");
+	}
+	
+	
+	public void attack(Warrior warrior) {
+		System.out.println("전사 공격 중");
+	}
+	
+	public void attack(Wizard wizard) {
+		System.out.println("마법사 공격 중");
+	}
+	
+	public void beAttacked(int power) {
+		super.getHp() -= power
+	}
+	
+}

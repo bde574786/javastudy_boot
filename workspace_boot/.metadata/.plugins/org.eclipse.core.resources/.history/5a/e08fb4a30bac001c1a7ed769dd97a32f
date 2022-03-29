@@ -1,0 +1,64 @@
+package ch11;
+
+import java.util.Scanner;
+
+public class MainTest {
+
+	public static void main(String[] args) {
+			
+		int power = 0;
+		
+		Zealot zealot = new Zealot("질럿1");
+		Marine marine = new Marine("마린1");
+		Zergling zergling= new Zergling("저글링1");
+		zealot.showinfo();
+		
+		Scanner scanner = new Scanner(System.in);
+		// 실행의 흐름
+		// 누구를 공격하시겠습니까?
+		
+	 
+		System.out.println("유닛을 선택하세요");
+		String unit = scanner.nextLine();
+		if(unit.equals(zealot.getName())) {
+			power = zealot.getPower();
+		}else if(unit.equals(marine.getName())) {
+			power = marine.getPower();
+		}else {
+			power = zergling.getPower();
+		}
+		
+		System.out.println("누구를 공격하시겠습니까?");
+		String attack = scanner.nextLine();
+		if(attack.equals("질럿1")) {
+			zealot.beAttacked(power);
+		}else if(attack.equals("마린1")) {
+			marine.beAttacked(power);
+		}else {
+			zergling.beAttacked(power);
+		}
+		
+		zealot.showinfo();
+		
+		
+		
+		
+		
+		
+		
+		
+//		String temp = ">";
+//		for(int i = 0; i < 50; i++) {
+//			zealot1.attackMarine(marine1);
+//			System.out.println(temp);
+//			try {
+//				Thread.sleep(100);
+//			} catch (InterruptedException e) {
+//				// TODO Auto-generated catch block
+//				e.printStackTrace();
+//			}
+//		}
+	
+	}
+
+}

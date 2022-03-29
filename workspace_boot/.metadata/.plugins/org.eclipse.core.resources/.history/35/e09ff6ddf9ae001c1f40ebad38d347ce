@@ -1,0 +1,7 @@
+package starcraft_game;
+
+import starcraft_game.Unit;
+
+public class Terran extends Unit{
+
+}

@@ -1,0 +1,9 @@
+package ch14;
+
+public class Archer extends Hero{
+
+	public Archer(String name, int hp) {
+		super(name, hp);
+	}
+	
+}

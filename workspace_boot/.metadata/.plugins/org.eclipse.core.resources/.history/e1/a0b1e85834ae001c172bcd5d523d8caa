@@ -1,0 +1,14 @@
+package ch13;
+
+public class MainTest1 {
+
+	Zealot zealot1 = new Zealot();
+	Marine marine1 = new Marine();
+	Zergling zergling1 = new Zergling();
+
+	zealot1.showInfo();
+	marine1.showInfo();
+	zergling1.showInfo();
+
+}
+

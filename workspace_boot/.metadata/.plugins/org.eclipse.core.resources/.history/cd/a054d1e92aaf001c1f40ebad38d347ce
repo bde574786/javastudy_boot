@@ -1,0 +1,9 @@
+package ch18;
+
+public class Toy3 extends ToyMachine{
+
+	public Toy3() {
+		System.out.println("장난감 3입니다.");
+	}
+	
+}

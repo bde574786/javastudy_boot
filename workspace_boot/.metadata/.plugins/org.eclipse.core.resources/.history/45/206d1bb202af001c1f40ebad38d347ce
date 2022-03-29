@@ -1,0 +1,7 @@
+package starcraft_game.zerg;
+
+import starcraft_game.Unit;
+
+public class Zerg extends Unit {
+
+}

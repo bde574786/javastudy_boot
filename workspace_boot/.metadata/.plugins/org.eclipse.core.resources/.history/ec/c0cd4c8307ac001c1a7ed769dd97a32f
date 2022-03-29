@@ -1,0 +1,73 @@
+package ch11;
+
+import java.util.Scanner;
+
+public class MainTest {
+
+	public static void main(String[] args) {
+			
+		String tribe = null;
+		boolean flag = true;
+		
+		Zealot zealot2 = new Zealot("질럿2");
+		
+		Marine marine2 = new Marine("마린2");
+		
+		Zergling zergling2 = new Zergling("저글링2");
+		
+
+		Scanner scanner = new Scanner(System.in);
+		// 실행의 흐름
+		// 누구를 공격하시겠습니까?
+		
+		System.out.println("당신의 종족은 무엇입니까?");
+		tribe = scanner.nextLine();
+		
+		while(flag) {
+			if(tribe == "프로토스") {
+				Zealot zealot1 =  new Zealot("질럿1");
+			} else if(tribe == "테란") {
+				Marine marine1 = new Marine("마린1");
+			} else {
+				Zergling zerg1 = new Zergling("저글링1");
+			}
+			if(tribe == "프로토스" && tribe == "테란" && tribe == "저그") {
+				flag = false;
+			}
+			
+		}
+		
+		
+		System.out.println("누구를 공격하시겠습니까?");
+		
+		String input = scanner.nextLine();
+//		while(flag) {
+//			if(input.equals("질럿1")) {
+//				zealot1.
+//			}else {
+//				
+//			}
+//		}
+		
+		
+		
+		
+		
+		
+		
+		
+//		String temp = ">";
+//		for(int i = 0; i < 50; i++) {
+//			zealot1.attackMarine(marine1);
+//			System.out.println(temp);
+//			try {
+//				Thread.sleep(100);
+//			} catch (InterruptedException e) {
+//				// TODO Auto-generated catch block
+//				e.printStackTrace();
+//			}
+//		}
+	
+	}
+
+}

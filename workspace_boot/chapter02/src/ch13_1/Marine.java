@@ -7,6 +7,11 @@ public class Marine extends Unit {
 		// super.name = name;
 	}
 
+	public void beAttacked(int power) {
+		System.out.println("마린이 공격당했습니다");
+		hp -= power;
+	}
+	
 	// 메서드 오버로딩
 	// ( 메세드 이름이 같은 녀셕이라도 매개변수, 리턴타입 다를 경우
 	// 컴파일러는 구분이 가능 하다.

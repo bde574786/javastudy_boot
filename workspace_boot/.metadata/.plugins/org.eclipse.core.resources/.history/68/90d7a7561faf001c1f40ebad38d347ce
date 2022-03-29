@@ -1,0 +1,8 @@
+package ch20;
+
+public class DeskTop extends Computer {
+
+	
+
+	
+}

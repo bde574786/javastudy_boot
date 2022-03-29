@@ -1,0 +1,7 @@
+package ch14;
+
+public class Archer extends Hero{
+
+	super.(name, hp)
+	
+}

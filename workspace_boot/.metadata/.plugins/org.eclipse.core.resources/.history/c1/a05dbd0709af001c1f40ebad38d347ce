@@ -1,0 +1,21 @@
+package ch18;
+
+import java.util.Random;
+
+public class MainTest {
+
+	public static void main(String[] args) {
+		System.out.println(ranValue());
+	}
+
+	
+	// 랜덤 값을 뽑아 내는 함수 만들어보기
+	public static int ranValue() {
+		// JDK 도구
+		Random random = new Random();
+		// 0 부터 ~ 44까지 랜덤적인 정수값 뽑아준다.
+		int value = random.nextInt(45) + 1;
+		return  value;
+	}
+	
+}

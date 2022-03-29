@@ -1,0 +1,16 @@
+package ch11;
+
+public class test {
+
+	private static test instance = new test();
+	
+	private test() {
+		
+	}
+	
+	public static test getinstance() {
+		return instance;
+	}
+	
+	
+}

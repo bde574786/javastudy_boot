@@ -1,0 +1,25 @@
+package ch14;
+
+public class Car {
+
+	String name;
+	int price;
+	Engin engin;
+	
+	public Car() {
+		engin = new Engin();
+		engin.name = "gdr엔진";
+		engin.price = 600;
+	}
+	
+	
+	
+	public void showInfo() {
+		System.out.println("이름 : " + name);
+		System.out.println("가격 : " + price);
+		System.out.println(engin.name);
+		System.out.println(engin.price);
+	}
+	
+	
+}

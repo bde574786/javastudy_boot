@@ -1,0 +1,13 @@
+package ch14;
+
+public class Warrior extends Hero {
+
+	super.(this.name,this.hp);
+	
+	 public void comboAttack()
+	
+	
+	
+	
+	
+}

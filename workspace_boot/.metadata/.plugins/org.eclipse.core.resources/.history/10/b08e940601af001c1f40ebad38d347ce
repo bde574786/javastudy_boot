@@ -1,0 +1,7 @@
+package starcraft_game.protoss;
+
+import starcraft_game.Unit;
+
+public class Protoss extends Unit{
+
+}

@@ -4,17 +4,17 @@ public class Car {
 
 	String name;
 	int price;
-	Engin engin;
+	Engine engine;
 	
 	public Car() {
-		engin = new Engin("gdr엔진", 600);
+		engine = new Engine("gdr엔진", 600);
 	}
 	
 	
 	
 	public void showInfo() {
-		System.out.println(engin.name);
-		System.out.println(engin.price);
+		System.out.println(engine.name);
+		System.out.println(engine.price);
 	}
 	
 	

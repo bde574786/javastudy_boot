@@ -1,0 +1,16 @@
+package ch13_1;
+
+public class MainTest {
+
+	public static void main(String[] args) {
+
+		Zealot zealot = new Zealot("질럿");
+		Marine marine = new Marine("마린");
+		Zergling zergling = new Zergling("저글링");
+		
+		zealot.attack(marine);
+		marine.attack(zealot);
+		
+	}
+
+}

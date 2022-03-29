@@ -1,0 +1,15 @@
+package ch13;
+
+public class Unit {
+	
+	protected String name;
+	protected int power;
+	protected int hp;
+	
+	public void showInfo() {
+		System.out.println("이름 : " + name );
+		System.out.println("공격력 : " + power );
+		System.out.println("체력 : " + hp );
+	}
+	
+}

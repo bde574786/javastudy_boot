@@ -1,0 +1,17 @@
+package starcraft_game.terran;
+
+public class Barrack {
+
+	private Marine makeMarine() {
+		System.out.println("마린을 생산함니다.");
+		return new Marine();
+	}
+	
+	private FireBat makeFireBat() {
+		System.out.println("마린을 생산함니다.");
+		return new FireBat();
+	}
+	
+	
+	
+}

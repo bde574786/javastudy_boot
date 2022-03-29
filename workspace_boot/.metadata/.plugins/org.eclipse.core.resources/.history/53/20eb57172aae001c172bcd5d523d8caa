@@ -1,0 +1,11 @@
+package ch11;
+
+public class test {
+
+	private static test a = new test();
+	
+	public test getInstance() {
+		return this
+	}
+	
+}

@@ -1,0 +1,13 @@
+package ch13;
+
+public class Zealot extends Unit{
+
+	public Zealot(String name) {
+		// 부모에 있는 생성자를 먼저 호출해야 한다.
+		super(name);
+		//super.name = name;
+		//this()
+		// 부모 클래스에 사용자 정의 생성자가 있으면 반드시 부모 클래스의 생성자를 먼저 호출
+	}
+
+}

@@ -1,0 +1,9 @@
+package ch15;
+
+public class Fruit {
+
+	String name;
+	int price;
+	int fresh;
+	
+}

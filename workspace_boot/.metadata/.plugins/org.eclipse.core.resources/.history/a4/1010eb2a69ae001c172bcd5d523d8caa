@@ -1,0 +1,29 @@
+package ch14;
+
+public class CarTest {
+
+	public static void main(String[] args) {
+		
+		// 자동차 객체를 만들고
+		// showInfo 만들어
+		// 화면에 출력합시다.
+		
+		Car car = new Car();
+		Engin engin = new Engin();
+		
+		car.name = "차";
+		car.price = 1;
+		
+		engin.engin = engin;
+		engin.name = "엔진";
+		engin.price = 1;
+		
+		System.out.println(car.name);
+		System.out.println(car.price);
+		System.out.println(engin.name);
+		System.out.println(engin.price);
+		
+	}
+	
+	
+}

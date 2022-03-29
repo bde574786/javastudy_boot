@@ -1,0 +1,11 @@
+package ch18;
+
+public class Toy3 extends ToyMachine{
+
+	public Toy3() {
+		name = "장난감3";
+		price = 3;
+	}
+	
+	
+}

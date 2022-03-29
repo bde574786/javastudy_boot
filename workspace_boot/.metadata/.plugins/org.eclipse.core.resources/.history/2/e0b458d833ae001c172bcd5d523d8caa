@@ -1,0 +1,9 @@
+package ch13;
+
+public class Zealot {
+
+	private String name;
+	private int power;
+	private int hp;
+	
+}

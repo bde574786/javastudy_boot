@@ -1,0 +1,13 @@
+package ch21;
+
+public abstract class Car {
+	public void startCar() {
+	}
+	public abstract void drive();
+	public abstract void stop();
+	public void turnOff() {
+	}
+	public void run() {
+	}
+
+}

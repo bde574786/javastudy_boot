@@ -7,6 +7,10 @@ public class Zergling extends Unit {
 		// super.name = name;
 	}
 
+	public void beAttacked(int power) {
+		System.out.println("저글링이 공격당했습니다");
+		hp -= power;
+	}
 //	public void attack(Marine marine) {
 //		marine.beAttacked(power);
 //	}

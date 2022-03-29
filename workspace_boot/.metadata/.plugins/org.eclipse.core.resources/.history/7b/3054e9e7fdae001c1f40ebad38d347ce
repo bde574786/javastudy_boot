@@ -1,0 +1,26 @@
+package starcraft_game;
+
+import starcraft_game.protoss.GateWay;
+
+public class MainTest {
+
+	public static void main(String[] args) {
+		// 게이트 생성
+		// 생산된 유닛 12마리를 배열에 담아주세요!!!
+		GateWay gateway = new GateWay();
+		
+		// for -- 배열에 담을 수 있다
+		gateway.createProtossUnit();
+			
+		
+		
+		// 테란 (배럭)
+		// fireBat, Marine
+		
+		//저그 ( Hatchery )
+		// Hydra, Ultra, 저글링
+		
+		}
+		
+	}
+

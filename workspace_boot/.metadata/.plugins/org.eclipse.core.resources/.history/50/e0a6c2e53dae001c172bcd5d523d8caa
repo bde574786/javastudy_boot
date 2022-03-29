@@ -1,0 +1,12 @@
+package ch14;
+
+public class Warrior extends Hero {
+
+	public Warrior(String name, int hp) {
+		super(name, hp);
+	}
+	
+	
+	
+	
+}

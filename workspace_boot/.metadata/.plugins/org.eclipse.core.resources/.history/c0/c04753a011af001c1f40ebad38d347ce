@@ -1,0 +1,7 @@
+package ch18;
+
+public class Toy2 extends ToyMachine{
+
+	name = "장난감2";
+	 price = 2;
+}

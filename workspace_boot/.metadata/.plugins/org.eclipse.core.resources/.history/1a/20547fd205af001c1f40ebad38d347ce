@@ -1,0 +1,11 @@
+package ch17;
+
+public class MainTest {
+
+	public static void main(String[] args) {
+
+		Book book1 = new Book();
+		
+	}
+
+}

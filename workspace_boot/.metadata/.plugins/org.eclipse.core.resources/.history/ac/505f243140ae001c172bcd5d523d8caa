@@ -1,0 +1,26 @@
+package ch14;
+
+public class Wizard extends Hero{
+
+	public Wizard(String name, int hp) {
+		super(name, hp);
+	}
+	
+	public void freezing() {
+		System.out.println("얼림");
+	}
+	
+	public void attack(Wizard wizard) {
+		System.out.println("자살 중");
+	}
+	public void attack(Warrior warrior) {
+		System.out.println("전사 공격 중");
+	}
+	
+	public void attack(Archer archer) {
+		System.out.println("궁수 공격 중");
+	}
+	
+	
+	
+}

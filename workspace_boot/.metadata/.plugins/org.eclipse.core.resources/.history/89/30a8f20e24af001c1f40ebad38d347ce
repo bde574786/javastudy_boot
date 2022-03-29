@@ -1,0 +1,25 @@
+package ch21;
+
+public abstract class Car {
+
+	void startCar() {
+		System.out.println("시동을 켭니다");
+	}
+
+	void turnOff() {
+		System.out.println("시동을 끕니다");
+	}
+
+	abstract void drive();
+
+	abstract void stop();
+
+	// 메서드 앞에 final ??? -> 재정의 불가
+	final public void run() {
+		startCar();
+		drive();
+		stop();
+		turnOff();
+	}
+
+}

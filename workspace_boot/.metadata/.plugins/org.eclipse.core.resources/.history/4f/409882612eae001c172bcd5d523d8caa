@@ -1,0 +1,16 @@
+package ch12;
+
+public class Maintest {
+
+	// 함수
+	// 메인함수 (코드의 시작점)
+	public static void main(String[] args) {
+
+		
+	} // end of main
+
+} // end of class
+
+
+
+// 함수와 메서드의 차이점

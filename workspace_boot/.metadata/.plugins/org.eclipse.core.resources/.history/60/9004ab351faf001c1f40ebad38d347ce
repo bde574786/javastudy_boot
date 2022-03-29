@@ -1,0 +1,21 @@
+package ch20;
+
+public class MainTest {
+
+	public static void main(String[] args) {
+		
+		DeskTop desktop = new DeskTop();
+		desktop.display();
+		desktop.typing();
+		
+		MyNoteBook myNoteBook = new MyNoteBook();
+		myNoteBook.display();
+		myNoteBook.typing();
+		myNoteBook.turnOn();
+		myNoteBook.turnOff();
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+package ch14;
+
+public class MainTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Warrior warrior = new Warrior("전사", 10, 3);
+	    Archer archer = new Archer("궁수", 10, 3);
+		Wizard wizard = new Wizard("마법사", 10, 3);
+		
+		warrior.showInfo(warrior);
+		archer.showInfo(archer);
+		wizard.showInfo(wizard);
+	}
+
+}

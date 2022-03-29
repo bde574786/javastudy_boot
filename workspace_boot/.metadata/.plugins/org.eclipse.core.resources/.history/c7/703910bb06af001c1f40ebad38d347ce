@@ -1,0 +1,33 @@
+package ch17;
+
+public class Book {
+	
+	int id;
+	String title;
+	//포함관계
+	Author author;
+	
+	
+	
+	
+	@Override
+	public String toString() {
+		System.out.println("작가의 대한 정보도 출력");
+		System.out.println(author.name);
+		System.out.println(author.age);
+		
+		String str = "======================================";
+		str += ">>>>>>>\n";
+		str += ">>>>>>>\n";
+		str += ">>>>>>>\n";
+		System.out.println(">>>>>> ");
+		System.out.println("Book [id=" + id + ", title=" + title + ", author=" + author + "]");
+		System.out.println(">>>>>> ");
+		return str;
+	}
+		
+	
+
+	
+	
+}

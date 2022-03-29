@@ -1,0 +1,33 @@
+package ch18;
+
+import java.util.Random;
+
+public class ToyMachine{
+
+	String name;
+	int price;
+	
+	public ToyMachine(String name, int price ) {
+		 this.name = name;
+		 this.price = price;
+		 
+	}
+	
+	public int ranValue() {
+		Random random = new Random();
+		int value = random.nextInt(3) + 1;
+		return value;
+	}
+	
+	
+	
+}
+
+
+
+
+
+// 장난감은 3 개 만들어줍니다.
+// 사용자 랜덤 함수 사용해서 답을 맞추면
+// 장난감을 반환합니다.
+// 아니면 꽝 !!

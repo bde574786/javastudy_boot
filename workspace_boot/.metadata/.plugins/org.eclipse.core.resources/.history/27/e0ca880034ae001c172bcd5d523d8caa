@@ -1,0 +1,9 @@
+package ch13;
+
+public class MainTest1 {
+
+	Zealot zealot1 = new Zealot();
+	Marine marine = new Marine();
+	Zergling zergling = new Zergling();
+}
+
